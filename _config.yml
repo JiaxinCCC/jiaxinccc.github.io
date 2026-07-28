@@ -20,7 +20,7 @@ title                    : "Jiaxin Chen"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Jiaxin Chen"
-description              : "PhD candidate in Statistics"
+description              : "Ph.D. candidate in Statistics"
 url                      : #"https://jiaxinccc.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : #"jiaxinccc/jiaxinccc.github.io"
@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Jiaxin Chen"
   avatar           : "/assets/images/IMG_2273.JPG"
-  bio              : "PhD candidate <br> Department of Statistics <br> The Ohio State University"
+  bio              : "Ph.D. candidate <br> Department of Statistics <br> The Ohio State University"
   location         : "Columbus, OH"
   email            : "chen.10195@osu.edu"
   #github           : "jiaxinccc"
