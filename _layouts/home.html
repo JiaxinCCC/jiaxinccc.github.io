@@ -1,0 +1,21 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+
+<p> I am a Ph.D. candidate in the <a href="https://stat.osu.edu/">Department of Statistics</a> at The Ohio State University, advised by <a href="https://stat.osu.edu/people/cai.1083">Dr. Xiaoxuan Cai</a>. My research lies at the intersection of Bayesian statistics, longitudinal data analysis, and digital health. </p>
+
+<p> My dissertation research focuses on developing hierarchical Bayesian state-space models for intensive longitudinal data collected from mobile devices. In particular, I study personalized and time-varying treatment effects, clinically meaningful subgroup identification, outcome forecasting, and sequential learning for new individuals. This work is motivated by applications in mobile health and mental health, where individuals may respond differently to interventions and their underlying states may change over time. </p>
+
+<p> More broadly, I am interested in Bayesian modeling, longitudinal and time-series analysis, causal inference, machine learning, and statistical computing. I have collaborated with researchers in Statistics and Psychiatry on the analysis of intensive longitudinal mental health data. I also have industry experience in data science and experimentation through my internship with the Ads Experimentation team at Pinterest. </p>
+
+<p> Here is my <a href="/assets/pdffiles/Resume_JC_May2026.pdf">CV</a>. </p>
+
+
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}
